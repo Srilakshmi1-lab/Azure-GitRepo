@@ -1,0 +1,30 @@
+Git Commands:
+================
+
+Basic Commands
+
+1. git init - will create new local git repository
+2. git clone - is used to copy a repository
+3. git add - add file as it looks now to your next commit(stage)
+4. git commit  -m "message"- will create a snapshot of the changes and save it to the git
+5. git push - publish local changes to the original
+
+Make a change
+
+1. git status - list new or modified files not yet committed
+2. git diff list down changes and conflicts
+3. git reset - unstages file, keeping the file changes
+
+Branching and Merging
+
+1. git branch - will list your branches
+2. git checkout - switch to another brnach and check it out into your working directory
+3. git merge - will merge the specified branch's history into the current branch
+4. git log - show all commmits in the current branch's history
+
+
+Synchronize
+
+git remote add <name> <url> - create new connection to a remote repo
+git fetch - get all the changes from the origin
+git pull - get all teh latest chagnes from the origin and merge
