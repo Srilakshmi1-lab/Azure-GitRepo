@@ -9,7 +9,7 @@ Basic Commands
 4. git commit  -m "message"- will create a snapshot of the changes and save it to the git
 5. git push - publish local changes to the original
 
-Make a change
+Make a change to git repo
 
 1. git status - list new or modified files not yet committed
 2. git diff list down changes and conflicts
