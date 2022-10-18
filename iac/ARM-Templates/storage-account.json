@@ -15,6 +15,19 @@
     {
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2019-04-01",
+      "name": "mystorageaccount-2",
+      "location": "westus",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2",
+      "properties": {}
+    }
+  ]
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2019-04-01",
       "name": "mystorageaccount-3",
       "location": "westus",
       "sku": {
