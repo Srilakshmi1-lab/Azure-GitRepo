@@ -1,1 +1,4 @@
 #fundamentals of Operating System
+operating systems are two types 
+1. client operating system
+2. server operating system
