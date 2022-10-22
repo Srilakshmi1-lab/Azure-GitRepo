@@ -2,3 +2,8 @@
 operating systems are two types 
 1. client operating system
 2. server operating system
+linux distributions :
+There are many linux distributions are available in that distibutions 3 is majourly used 1.ubuntu
+     2.redhat
+     3.suse.    these distributions are in majourity of users.
+  
