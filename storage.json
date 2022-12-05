@@ -8,17 +8,17 @@
     "variables": {},
     "resources": [   
         {
-            "name": "storageaccount1",
+            "name": "storagegithubpl1",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2021-04-01",
             "tags": {
                 "displayName": "storageaccount1"
             },
-            "location": "[resourceGroup().location]",
+            "location": "Central India",
             "kind": "StorageV2",
             "sku": {
-                "name": "Premium_LRS",
-                "tier": "Premium"
+                "name": "Standard_LRS",
+                "tier": "standard"
             }
         }
     ],
