@@ -17,4 +17,15 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'sriserviceconnection'
+    subscriptionId: '460ca580-77b4-41d1-ac4d-86761a4e4ec8'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'sri-rg'
+    location: 'Central India'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/Srilakshmi1-lab/AzureDevOpsRepo/blob/main/storage.json'
+    deploymentMode: 'Incremental'
  
